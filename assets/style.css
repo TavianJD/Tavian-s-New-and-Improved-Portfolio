@@ -3,13 +3,61 @@ body {
     margin: 0px;
     padding: 0px;
 }
+
+
 a {
     text-decoration: none;
 }
+
+
 ul{
     list-style: none;
 }
+
+
 section {
     width: 100%;
-    height: 400px;
+    height: 95vh;
+    background-image: url(./images/brick-wall.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: white;
+    padding: 0px 5%;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav ul li a {
+    display: flex;
+    margin: 25px 25px 25px 25px;
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: Space monospace;
+}
+
+
+.name {
+    font-family:'Courier New', Courier, monospace;
+    font-size: x-large;
+    color: black;
+    
+
+}
+
+.hero-text {
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.75)
 }
