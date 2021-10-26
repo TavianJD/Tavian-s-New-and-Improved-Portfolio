@@ -17,7 +17,7 @@ ul{
 
 section {
     width: 100%;
-    height: 95vh;
+    height: 100vh;
     background-image: url(./images/brick-wall.jpg);
     background-repeat: no-repeat;
     background-size:cover;
@@ -90,16 +90,13 @@ nav ul li a {
 
 }
 .about-box{
-    width: 80%;
+    max-width: 80%;
     height: 350px;
     background-color: whitesmoke;
     border-radius: 15px;
     display: flex;
     position: relative;
-    margin-top: 20px;
     border: silver 5px solid;
- 
-   
 }
 
 .about-text {
@@ -122,11 +119,55 @@ nav ul li a {
     font-weight: bold;
 }
 
+.work-box h1 {
+    font-size: 35px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-right: 3px solid black;
+}
+
 
 .work-box {
     width: 100%;
     height: 700px;
     border-radius: 20px;
     background-color: whitesmoke;
+    display: flex;
+    margin-bottom: auto;
+
 
 }
+
+.work-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 300px;
+}
+.big-image1 {
+    display: flex;
+    width: 500px;
+    height: 200px;
+  
+}
+
+.box-2, .box-3 {
+    display: flex;
+    width: 300px;
+    height: 160px;
+}
+
+.work-container p {
+    padding-right: 15px;
+    font-family: cursive;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+
+.contact-box {
+    width: 100%;
+    height: 150px;
+
+}
+
